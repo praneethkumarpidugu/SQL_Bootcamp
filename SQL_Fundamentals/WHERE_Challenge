@@ -1,0 +1,17 @@
+SELECT email
+FROM customer
+WHERE first_name='Nancy';
+
+SELECT description
+FROM film
+WHERE title='Outlaw Hanky';
+
+SELECT phone
+FROM customer_list WHERE address LIKE '%Ipoh Drive%';
+
+SELECT phone
+FROM address
+WHERE address='259 Ipoh Drive';
+
+
+
